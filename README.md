@@ -27,11 +27,6 @@
 <!-- INDEX:START -->
 | # | 问题 | 分类 |
 |---|------|------|
-| 001 | [为什么 LLM 推理的显存瓶颈在 KV Cache？](./questions/001-kv-cache.md) | 推理优化 |
-| 002 | [RoPE 为什么外推失效？NTK-aware 和 YaRN 在做什么？](./questions/002-position-encoding.md) | 模型架构 |
-| 003 | [Agent 跑 50 轮工具调用后上下文爆炸，怎么办？](./questions/003-agent-context.md) | Agent |
-| 004 | [SFT 之后为什么还要 RLHF / DPO？DPO 的局限在哪？](./questions/004-dpo-limitation.md) | 训练对齐 |
-| 005 | [为什么 LLM Benchmark 分数不可信？](./questions/005-benchmark-trust.md) | 评测 |
 | 006 | [DeepSearch 中的 Query 筛选与难题构造](./questions/006-deepsearch-query-filtering.md) | 推理优化 |
 | 007 | [Mixed RL 数据合版与 MOPD 合版](./questions/007-mixed-rl-data-merging-mopd.md) | 训练对齐 |
 <!-- INDEX:END -->
