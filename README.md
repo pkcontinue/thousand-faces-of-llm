@@ -6,7 +6,7 @@
 
 把大模型知识拆成一千个切面 —— 从一个问题出发，理解一整块系统。
 
-[![Questions](https://img.shields.io/badge/进度-5%20%2F%201000-7AA2F7?style=flat-square&labelColor=1a1b26)](./questions)
+[![Questions](https://img.shields.io/badge/进度-2%20%2F%201000-7AA2F7?style=flat-square&labelColor=1a1b26)](./questions/)
 [![License](https://img.shields.io/badge/License-MIT-9ECE6A?style=flat-square&labelColor=1a1b26)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-BB9AF7?style=flat-square&labelColor=1a1b26)](./CONTRIBUTING.md)
 
@@ -20,7 +20,13 @@
 
 每个问题都长这样：先用一句话回答，再把背后的系统讲清楚 —— 公式、权衡、工程坑、延伸阅读。目标不是背答案，而是**通过一个问题吃透一整条链路**。
 
-问题覆盖从模型架构、推理优化，到 Agent、RAG、训练对齐与评测。
+计划覆盖模型架构、推理优化、Agent、RAG、训练对齐与评测。目前已收录 **2 篇**专题，编号保留原有顺序。
+
+## 从这里开始
+
+- 对检索与 Agent 感兴趣：先读 [DeepSearch 中的 Query 筛选与难题构造](./questions/006-deepsearch-query-filtering.md)。
+- 对后训练与强化学习感兴趣：先读 [Mixed RL 数据合版与 MOPD 合版](./questions/007-mixed-rl-data-merging-mopd.md)。
+- 想贡献新内容：从 [问题模板](./templates/question.md) 和 [贡献指南](./CONTRIBUTING.md) 开始。
 
 ## 目录
 
@@ -54,10 +60,10 @@
 欢迎提交你自己的问题。格式见 [`templates/question.md`](./templates/question.md)，流程见 [`CONTRIBUTING.md`](./CONTRIBUTING.md)。
 
 ```bash
-# 新增一个问题
-cp templates/question.md questions/006-your-slug.md
-# 编辑 frontmatter 和内容
-python scripts/build_index.py   # 自动更新上面的目录
+# 将 NNN 替换为未使用的三位编号，将 your-slug 替换为英文短名
+cp templates/question.md questions/NNN-your-slug.md
+# 编辑新文件的 frontmatter 和正文
+# 手动更新 README 目录、已收录篇数和顶部进度徽章
 ```
 
 ---
